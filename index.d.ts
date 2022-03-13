@@ -45,6 +45,10 @@ export class BaseClass {
      * The main manager that handles all request
      */
     public main: Main
+    /**
+     * The root API url
+     */
+    public root: `https://discordstatus.com/api/v2`
 }
 
 export class Main {
